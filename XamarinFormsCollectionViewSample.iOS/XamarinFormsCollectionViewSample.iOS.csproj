@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0BE4E966-66B9-40A6-BC6C-72BFD4E2EE21}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>XamarinFormsCollectionViewSample.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>XamarinFormsCollectionViewSample.iOS</AssemblyName>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\hamilton-images\.DS_Store" />
+    <ImageAsset Include="Assets.xcassets\hamilton-images\burr.jpg" />
+    <ImageAsset Include="Assets.xcassets\hamilton-images\eliza.jpg" />
+    <ImageAsset Include="Assets.xcassets\hamilton-images\george.jpg" />
+    <ImageAsset Include="Assets.xcassets\hamilton-images\hamilton.jpg" />
+    <ImageAsset Include="Assets.xcassets\hamilton-images\jefferson.jpg" />
+    <ImageAsset Include="Assets.xcassets\hamilton-images\madison.jpg" />
+    <ImageAsset Include="Assets.xcassets\hamilton-images\phamilton.jpg" />
+    <ImageAsset Include="Assets.xcassets\hamilton-images\reynolds.jpg" />
+    <ImageAsset Include="Assets.xcassets\hamilton-images\schuyler.jpg" />
+    <ImageAsset Include="Assets.xcassets\hamilton-images\washington.jpg" />
+    <ImageAsset Include="Assets.xcassets\burr.jpg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\burr.jpg.imageset\burr.jpg" />
+    <ImageAsset Include="Assets.xcassets\schuyler.jpg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\schuyler.jpg.imageset\schuyler.jpg" />
+    <ImageAsset Include="Assets.xcassets\eliza.jpg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\eliza.jpg.imageset\eliza.jpg" />
+    <ImageAsset Include="Assets.xcassets\george.jpg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\george.jpg.imageset\george.jpg" />
+    <ImageAsset Include="Assets.xcassets\jefferson.jpg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\jefferson.jpg.imageset\jefferson.jpg" />
+    <ImageAsset Include="Assets.xcassets\washington.jpg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\washington.jpg.imageset\washington.jpg" />
+    <ImageAsset Include="Assets.xcassets\phamilton.jpg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\phamilton.jpg.imageset\phamilton.jpg" />
+    <ImageAsset Include="Assets.xcassets\reynolds.jpg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\reynolds.jpg.imageset\reynolds.jpg" />
+    <ImageAsset Include="Assets.xcassets\madison.jpg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\madison.jpg.imageset\madison.jpg" />
+    <ImageAsset Include="Assets.xcassets\hamilton.jpg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\hamilton.jpg.imageset\hamilton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.8055-pre1" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinFormsCollectionViewSample\XamarinFormsCollectionViewSample.csproj">
+      <Project>{F5E2B7F3-88B8-43F3-B510-D75261595431}</Project>
+      <Name>XamarinFormsCollectionViewSample</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\burr.jpg.imageset\" />
+    <Folder Include="Assets.xcassets\schuyler.jpg.imageset\" />
+    <Folder Include="Assets.xcassets\eliza.jpg.imageset\" />
+    <Folder Include="Assets.xcassets\george.jpg.imageset\" />
+    <Folder Include="Assets.xcassets\jefferson.jpg.imageset\" />
+    <Folder Include="Assets.xcassets\washington.jpg.imageset\" />
+    <Folder Include="Assets.xcassets\phamilton.jpg.imageset\" />
+    <Folder Include="Assets.xcassets\reynolds.jpg.imageset\" />
+    <Folder Include="Assets.xcassets\madison.jpg.imageset\" />
+    <Folder Include="Assets.xcassets\hamilton.jpg.imageset\" />
+  </ItemGroup>
+</Project>
